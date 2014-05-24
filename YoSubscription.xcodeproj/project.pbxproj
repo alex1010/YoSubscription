@@ -17,6 +17,7 @@
 		9065957B1930C09200528134 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9065957A1930C09200528134 /* SystemConfiguration.framework */; };
 		9065957D1930C09800528134 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9065957C1930C09800528134 /* AudioToolbox.framework */; };
 		9065957F1930C09F00528134 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9065957E1930C09F00528134 /* CFNetwork.framework */; };
+		906595821930C53E00528134 /* YSLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 906595811930C53E00528134 /* YSLoginViewController.m */; };
 		FA11C98619308A39000797DD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA11C98519308A39000797DD /* Foundation.framework */; };
 		FA11C98819308A39000797DD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA11C98719308A39000797DD /* CoreGraphics.framework */; };
 		FA11C98A19308A39000797DD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA11C98919308A39000797DD /* UIKit.framework */; };
@@ -54,6 +55,8 @@
 		9065957A1930C09200528134 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		9065957C1930C09800528134 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		9065957E1930C09F00528134 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		906595801930C53E00528134 /* YSLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YSLoginViewController.h; sourceTree = "<group>"; };
+		906595811930C53E00528134 /* YSLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YSLoginViewController.m; sourceTree = "<group>"; };
 		FA11C98219308A39000797DD /* YoSubscription.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YoSubscription.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA11C98519308A39000797DD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		FA11C98719308A39000797DD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -157,6 +160,8 @@
 				FA11C99719308A39000797DD /* Main.storyboard */,
 				FA11C99A19308A39000797DD /* YSViewController.h */,
 				FA11C99B19308A39000797DD /* YSViewController.m */,
+				906595801930C53E00528134 /* YSLoginViewController.h */,
+				906595811930C53E00528134 /* YSLoginViewController.m */,
 				FA11C99D19308A39000797DD /* Images.xcassets */,
 				FA11C98C19308A39000797DD /* Supporting Files */,
 			);
@@ -292,6 +297,7 @@
 			files = (
 				FA11C99C19308A39000797DD /* YSViewController.m in Sources */,
 				FA11C99619308A39000797DD /* YSAppDelegate.m in Sources */,
+				906595821930C53E00528134 /* YSLoginViewController.m in Sources */,
 				FA11C99219308A39000797DD /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
