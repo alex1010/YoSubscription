@@ -6,14 +6,14 @@
 //  Copyright (c) 2014 ___FULLUSERNAME___. All rights reserved.
 //
 
-#import "YSViewController.h"
+#import "YSSubscribesViewController.h"
 
 
-@interface YSViewController ()
+@interface YSSubscribesViewController ()
 
 @end
 
-@implementation YSViewController
+@implementation YSSubscribesViewController
 
 - (void)viewDidLoad
 {

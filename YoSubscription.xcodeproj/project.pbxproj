@@ -27,7 +27,7 @@
 		FA11C99219308A39000797DD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FA11C99119308A39000797DD /* main.m */; };
 		FA11C99619308A39000797DD /* YSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FA11C99519308A39000797DD /* YSAppDelegate.m */; };
 		FA11C99919308A39000797DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA11C99719308A39000797DD /* Main.storyboard */; };
-		FA11C99C19308A39000797DD /* YSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA11C99B19308A39000797DD /* YSViewController.m */; };
+		FA11C99C19308A39000797DD /* YSSubscribesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA11C99B19308A39000797DD /* YSSubscribesViewController.m */; };
 		FA11C99E19308A39000797DD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA11C99D19308A39000797DD /* Images.xcassets */; };
 		FA11C9A519308A39000797DD /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA11C9A419308A39000797DD /* XCTest.framework */; };
 		FA11C9A619308A39000797DD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA11C98519308A39000797DD /* Foundation.framework */; };
@@ -74,8 +74,8 @@
 		FA11C99419308A39000797DD /* YSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YSAppDelegate.h; sourceTree = "<group>"; };
 		FA11C99519308A39000797DD /* YSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YSAppDelegate.m; sourceTree = "<group>"; };
 		FA11C99819308A39000797DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		FA11C99A19308A39000797DD /* YSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YSViewController.h; sourceTree = "<group>"; };
-		FA11C99B19308A39000797DD /* YSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YSViewController.m; sourceTree = "<group>"; };
+		FA11C99A19308A39000797DD /* YSSubscribesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YSSubscribesViewController.h; sourceTree = "<group>"; };
+		FA11C99B19308A39000797DD /* YSSubscribesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YSSubscribesViewController.m; sourceTree = "<group>"; };
 		FA11C99D19308A39000797DD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		FA11C9A319308A39000797DD /* YoSubscriptionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YoSubscriptionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA11C9A419308A39000797DD /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -168,8 +168,8 @@
 				8490AB661930EDF500B9EFF1 /* Common.m */,
 				8490AB621930ED7C00B9EFF1 /* YSRegistrationViewController.h */,
 				8490AB631930ED7C00B9EFF1 /* YSRegistrationViewController.m */,
-				FA11C99A19308A39000797DD /* YSViewController.h */,
-				FA11C99B19308A39000797DD /* YSViewController.m */,
+				FA11C99A19308A39000797DD /* YSSubscribesViewController.h */,
+				FA11C99B19308A39000797DD /* YSSubscribesViewController.m */,
 				906595801930C53E00528134 /* YSLoginViewController.h */,
 				906595811930C53E00528134 /* YSLoginViewController.m */,
 				FA11C99D19308A39000797DD /* Images.xcassets */,
@@ -306,7 +306,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8490AB671930EDF500B9EFF1 /* Common.m in Sources */,
-				FA11C99C19308A39000797DD /* YSViewController.m in Sources */,
+				FA11C99C19308A39000797DD /* YSSubscribesViewController.m in Sources */,
 				8490AB641930ED7C00B9EFF1 /* YSRegistrationViewController.m in Sources */,
 				FA11C99619308A39000797DD /* YSAppDelegate.m in Sources */,
 				906595821930C53E00528134 /* YSLoginViewController.m in Sources */,

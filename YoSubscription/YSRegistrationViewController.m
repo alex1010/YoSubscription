@@ -24,7 +24,9 @@
     user.password = self.passwordTextField.text;
     user.email = self.emailTextField.text;
     
+    [self.activityView startAnimating];
     [user signUpInBackgroundWithBlock:^(BOOL succeeded, NSError *error) {
+        [self.activityView stopAnimating];
         if (!succeeded) {
             NSLog(@"%@", error);
             [self cancelButtonPressed:nil];
@@ -32,9 +34,6 @@
         }
         [YSDELEGATE setUser:user];
     }];
-
-    
-    
 }
 
 - (IBAction)cancelButtonPressed:(id)sender {
