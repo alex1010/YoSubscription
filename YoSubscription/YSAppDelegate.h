@@ -11,5 +11,7 @@
 @interface YSAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
+@property (nonatomic) PFUser *user;
+
 
 @end
