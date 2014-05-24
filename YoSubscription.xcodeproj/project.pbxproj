@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA11C98619308A39000797DD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA11C98519308A39000797DD /* Foundation.framework */; };
+		FA11C98819308A39000797DD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA11C98719308A39000797DD /* CoreGraphics.framework */; };
+		FA11C98A19308A39000797DD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA11C98919308A39000797DD /* UIKit.framework */; };
+		FA11C99019308A39000797DD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FA11C98E19308A39000797DD /* InfoPlist.strings */; };
+		FA11C99219308A39000797DD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FA11C99119308A39000797DD /* main.m */; };
+		FA11C99619308A39000797DD /* YSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FA11C99519308A39000797DD /* YSAppDelegate.m */; };
+		FA11C99919308A39000797DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA11C99719308A39000797DD /* Main.storyboard */; };
+		FA11C99C19308A39000797DD /* YSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA11C99B19308A39000797DD /* YSViewController.m */; };
+		FA11C99E19308A39000797DD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA11C99D19308A39000797DD /* Images.xcassets */; };
+		FA11C9A519308A39000797DD /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA11C9A419308A39000797DD /* XCTest.framework */; };
+		FA11C9A619308A39000797DD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA11C98519308A39000797DD /* Foundation.framework */; };
+		FA11C9A719308A39000797DD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA11C98919308A39000797DD /* UIKit.framework */; };
+		FA11C9AF19308A39000797DD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FA11C9AD19308A39000797DD /* InfoPlist.strings */; };
+		FA11C9B119308A39000797DD /* YoSubscriptionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA11C9B019308A39000797DD /* YoSubscriptionTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FA11C9A819308A39000797DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA11C97A19308A39000797DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA11C98119308A39000797DD;
+			remoteInfo = YoSubscription;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FA11C98219308A39000797DD /* YoSubscription.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YoSubscription.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA11C98519308A39000797DD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FA11C98719308A39000797DD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FA11C98919308A39000797DD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FA11C98D19308A39000797DD /* YoSubscription-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "YoSubscription-Info.plist"; sourceTree = "<group>"; };
+		FA11C98F19308A39000797DD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FA11C99119308A39000797DD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FA11C99319308A39000797DD /* YoSubscription-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YoSubscription-Prefix.pch"; sourceTree = "<group>"; };
+		FA11C99419308A39000797DD /* YSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YSAppDelegate.h; sourceTree = "<group>"; };
+		FA11C99519308A39000797DD /* YSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YSAppDelegate.m; sourceTree = "<group>"; };
+		FA11C99819308A39000797DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FA11C99A19308A39000797DD /* YSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YSViewController.h; sourceTree = "<group>"; };
+		FA11C99B19308A39000797DD /* YSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YSViewController.m; sourceTree = "<group>"; };
+		FA11C99D19308A39000797DD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FA11C9A319308A39000797DD /* YoSubscriptionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YoSubscriptionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA11C9A419308A39000797DD /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		FA11C9AC19308A39000797DD /* YoSubscriptionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "YoSubscriptionTests-Info.plist"; sourceTree = "<group>"; };
+		FA11C9AE19308A39000797DD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FA11C9B019308A39000797DD /* YoSubscriptionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YoSubscriptionTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA11C97F19308A39000797DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA11C98819308A39000797DD /* CoreGraphics.framework in Frameworks */,
+				FA11C98A19308A39000797DD /* UIKit.framework in Frameworks */,
+				FA11C98619308A39000797DD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA11C9A019308A39000797DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA11C9A519308A39000797DD /* XCTest.framework in Frameworks */,
+				FA11C9A719308A39000797DD /* UIKit.framework in Frameworks */,
+				FA11C9A619308A39000797DD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA11C97919308A39000797DD = {
+			isa = PBXGroup;
+			children = (
+				FA11C98B19308A39000797DD /* YoSubscription */,
+				FA11C9AA19308A39000797DD /* YoSubscriptionTests */,
+				FA11C98419308A39000797DD /* Frameworks */,
+				FA11C98319308A39000797DD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA11C98319308A39000797DD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA11C98219308A39000797DD /* YoSubscription.app */,
+				FA11C9A319308A39000797DD /* YoSubscriptionTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA11C98419308A39000797DD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FA11C98519308A39000797DD /* Foundation.framework */,
+				FA11C98719308A39000797DD /* CoreGraphics.framework */,
+				FA11C98919308A39000797DD /* UIKit.framework */,
+				FA11C9A419308A39000797DD /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FA11C98B19308A39000797DD /* YoSubscription */ = {
+			isa = PBXGroup;
+			children = (
+				FA11C99419308A39000797DD /* YSAppDelegate.h */,
+				FA11C99519308A39000797DD /* YSAppDelegate.m */,
+				FA11C99719308A39000797DD /* Main.storyboard */,
+				FA11C99A19308A39000797DD /* YSViewController.h */,
+				FA11C99B19308A39000797DD /* YSViewController.m */,
+				FA11C99D19308A39000797DD /* Images.xcassets */,
+				FA11C98C19308A39000797DD /* Supporting Files */,
+			);
+			path = YoSubscription;
+			sourceTree = "<group>";
+		};
+		FA11C98C19308A39000797DD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FA11C98D19308A39000797DD /* YoSubscription-Info.plist */,
+				FA11C98E19308A39000797DD /* InfoPlist.strings */,
+				FA11C99119308A39000797DD /* main.m */,
+				FA11C99319308A39000797DD /* YoSubscription-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FA11C9AA19308A39000797DD /* YoSubscriptionTests */ = {
+			isa = PBXGroup;
+			children = (
+				FA11C9B019308A39000797DD /* YoSubscriptionTests.m */,
+				FA11C9AB19308A39000797DD /* Supporting Files */,
+			);
+			path = YoSubscriptionTests;
+			sourceTree = "<group>";
+		};
+		FA11C9AB19308A39000797DD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FA11C9AC19308A39000797DD /* YoSubscriptionTests-Info.plist */,
+				FA11C9AD19308A39000797DD /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA11C98119308A39000797DD /* YoSubscription */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA11C9B419308A39000797DD /* Build configuration list for PBXNativeTarget "YoSubscription" */;
+			buildPhases = (
+				FA11C97E19308A39000797DD /* Sources */,
+				FA11C97F19308A39000797DD /* Frameworks */,
+				FA11C98019308A39000797DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YoSubscription;
+			productName = YoSubscription;
+			productReference = FA11C98219308A39000797DD /* YoSubscription.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FA11C9A219308A39000797DD /* YoSubscriptionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA11C9B719308A39000797DD /* Build configuration list for PBXNativeTarget "YoSubscriptionTests" */;
+			buildPhases = (
+				FA11C99F19308A39000797DD /* Sources */,
+				FA11C9A019308A39000797DD /* Frameworks */,
+				FA11C9A119308A39000797DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA11C9A919308A39000797DD /* PBXTargetDependency */,
+			);
+			name = YoSubscriptionTests;
+			productName = YoSubscriptionTests;
+			productReference = FA11C9A319308A39000797DD /* YoSubscriptionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA11C97A19308A39000797DD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = YS;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "___FULLUSERNAME___";
+				TargetAttributes = {
+					FA11C9A219308A39000797DD = {
+						TestTargetID = FA11C98119308A39000797DD;
+					};
+				};
+			};
+			buildConfigurationList = FA11C97D19308A39000797DD /* Build configuration list for PBXProject "YoSubscription" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA11C97919308A39000797DD;
+			productRefGroup = FA11C98319308A39000797DD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA11C98119308A39000797DD /* YoSubscription */,
+				FA11C9A219308A39000797DD /* YoSubscriptionTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA11C98019308A39000797DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA11C99E19308A39000797DD /* Images.xcassets in Resources */,
+				FA11C99019308A39000797DD /* InfoPlist.strings in Resources */,
+				FA11C99919308A39000797DD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA11C9A119308A39000797DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA11C9AF19308A39000797DD /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA11C97E19308A39000797DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA11C99C19308A39000797DD /* YSViewController.m in Sources */,
+				FA11C99619308A39000797DD /* YSAppDelegate.m in Sources */,
+				FA11C99219308A39000797DD /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA11C99F19308A39000797DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA11C9B119308A39000797DD /* YoSubscriptionTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FA11C9A919308A39000797DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA11C98119308A39000797DD /* YoSubscription */;
+			targetProxy = FA11C9A819308A39000797DD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FA11C98E19308A39000797DD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA11C98F19308A39000797DD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FA11C99719308A39000797DD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA11C99819308A39000797DD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FA11C9AD19308A39000797DD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA11C9AE19308A39000797DD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA11C9B219308A39000797DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FA11C9B319308A39000797DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA11C9B519308A39000797DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YoSubscription/YoSubscription-Prefix.pch";
+				INFOPLIST_FILE = "YoSubscription/YoSubscription-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FA11C9B619308A39000797DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YoSubscription/YoSubscription-Prefix.pch";
+				INFOPLIST_FILE = "YoSubscription/YoSubscription-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		FA11C9B819308A39000797DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/YoSubscription.app/YoSubscription";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YoSubscription/YoSubscription-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "YoSubscriptionTests/YoSubscriptionTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		FA11C9B919308A39000797DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/YoSubscription.app/YoSubscription";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YoSubscription/YoSubscription-Prefix.pch";
+				INFOPLIST_FILE = "YoSubscriptionTests/YoSubscriptionTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA11C97D19308A39000797DD /* Build configuration list for PBXProject "YoSubscription" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA11C9B219308A39000797DD /* Debug */,
+				FA11C9B319308A39000797DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA11C9B419308A39000797DD /* Build configuration list for PBXNativeTarget "YoSubscription" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA11C9B519308A39000797DD /* Debug */,
+				FA11C9B619308A39000797DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FA11C9B719308A39000797DD /* Build configuration list for PBXNativeTarget "YoSubscriptionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA11C9B819308A39000797DD /* Debug */,
+				FA11C9B919308A39000797DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA11C97A19308A39000797DD /* Project object */;
+}
